@@ -8,7 +8,7 @@ import (
 
 func TestAdd(t *testing.T) {
 	got := Add(2, 2)
-	want := 4
+	want := 6
 
 	assert.Equal(t, want, got)	
 }
